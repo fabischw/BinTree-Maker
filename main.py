@@ -19,7 +19,7 @@ current_Version = "v1.0.3"
 
 vec2 = pygame.math.Vector2
 
-WIDTH, HEIGHT = 1000 , 600
+WIDTH, HEIGHT = 1920 , 1080
 window = pygame.display.set_mode((WIDTH, HEIGHT))
 
 color_bg = pygame.Color(220,220,220)#dark mode:(30,30,50)
@@ -46,7 +46,7 @@ def starting_window():
     randomFont = allFonts[random.randint(0, len(allFonts)-1)]
     # appname font + text
     font1 = pygame.font.SysFont(randomFont, 150)
-    text1 = font1.render('BinTreeMaker 3000', True, (0, 0, 0))
+    text1 = font1.render('BinTree-Maker', True, (0, 0, 0))
     # creator font + text
     font2 = pygame.font.SysFont(None, 30)
     text2 = font2.render('made by Lukas Buschauer', True, (0, 0, 0))
